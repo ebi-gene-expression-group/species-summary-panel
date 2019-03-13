@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Demo</title>
+
+  <link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/css/ebi-global.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css" type="text/css" media="all" />
+
+  <link rel="stylesheet" href="http://localhost:8080/gxa/sc/resources/css/theme-atlas.css" type="text/css" media="all">
+  <link rel="stylesheet" href="http://localhost:8080/gxa/sc/resources/css/atlas.css" type="text/css" media="all">
+</head>
+
+<body>
+    <div class="row column margin-bottom-large" id="ea-species"></div>
+    <div class="row column margin-bottom-large" id="scea-species"></div>
+
+    <script defer src="../dist/vendors.bundle.js"></script>
+    <script defer src="../dist/speciesSummaryPanelDemo.bundle.js"></script>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <!-- The Foundation theme JavaScript -->
+    <script src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/libraries/foundation-6/js/foundation.js"></script>
+    <script src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/js/foundationExtendEBI.js"></script>
+    <script type="text/JavaScript">$(document).foundation();</script>
+    <script type="text/JavaScript">$(document).foundationExtendEBI();</script>
+
+    <!-- Set to http://localhost:8080/gxa/ or http://localhost:8080/gxa_sc/ -- Remember the trailing slash! -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function(event) {
+        speciesSummaryPanelDemo.render(
+          {
+            host: `http://localhost:8080/gxa/`,
+            resource: `json/species-summary`,
+            onComponentDidMount: function() {
+              $('#ea-species').foundation();
+              $('#ea-species').foundationExtendEBI();
+            }
+          },
+          'ea-species');
+
+        speciesSummaryPanelDemo.render(
+          {
+            host: `http://localhost:8080/gxa/sc/`,
+            resource: `json/species-summary`,
+            onComponentDidMount: function() {
+              $('#scea-species').foundation();
+              $('#scea-species').foundationExtendEBI();
+            }
+          },
+          'scea-species');
+      })
+    </script>
+
+</body>
+
+</html>
