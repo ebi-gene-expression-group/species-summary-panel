@@ -3,8 +3,9 @@
   "main": "lib/index.js",
   "scripts": {
     "prepack": "rm -rf lib && babel src -d lib --copy-files",
-    "test": "jest --env=node --coverage",
-    "posttest": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "testOnly": "jest",
+    "test": "npm run testOnly",
+    "posttest": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "jest": {
     "setupFilesAfterEnv": [
