@@ -1,1 +1,2 @@
 # Atlas Homepage Species Summary Panel
+[![Build Status](https://travis-ci.com/ebi-gene-expression-group/atlas-homepage-species-summary-panel.svg?branch=master)](https://travis-ci.com/ebi-gene-expression-group/atlas-homepage-species-summary-panel) [![Coverage Status](https://coveralls.io/repos/github/ebi-gene-expression-group/atlas-homepage-species-summary-panel/badge.svg?branch=master)](https://coveralls.io/github/ebi-gene-expression-group/atlas-homepage-species-summary-panel?branch=master)
