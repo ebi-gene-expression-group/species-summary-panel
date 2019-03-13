@@ -1,3 +1,1 @@
-import HomePagePanels from './HomePagePanels'
-
-export default HomePagePanels
+export { default } from './SpeciesSummaryPanel'
