@@ -1,5 +1,5 @@
 {
-  "name": "atlas-homepage-species-summary-panel",
+  "name": "species-summary-panel",
   "version": "1.0.0-snapshot",
   "description": "Species summary panel to display in Expression Atlas and Single Cell Expression Atlas",
   "main": "lib/index.js",
@@ -35,7 +35,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ebi-gene-expression-group/atlas-homepage-species-summary-panel"
+    "url": "https://github.com/ebi-gene-expression-group/species-summary-panel"
   },
   "dependencies": {
     "atlas-homepage-cards": "^1.5.0-beta",
