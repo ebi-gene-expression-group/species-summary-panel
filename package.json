@@ -38,7 +38,7 @@
     "url": "https://github.com/ebi-gene-expression-group/species-summary-panel"
   },
   "dependencies": {
-    "atlas-homepage-cards": "^1.5.0-beta",
+    "atlas-homepage-cards": "^2.0.0-beta2",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
@@ -51,12 +51,12 @@
     "@babel/preset-react": "^7.0.0",
     "atlas-react-fetch-loader": "^1.0.0-beta",
     "babel-loader": "^8.0.5",
-    "clean-webpack-plugin": "^2.0.0",
+    "clean-webpack-plugin": "^2.0.1",
     "coveralls": "^3.0.3",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.11.0",
+    "enzyme-adapter-react-16": "^1.11.2",
     "eslint": "^5.15.1",
-    "eslint-config-gene-expression": "^0.5.0-beta",
+    "eslint-config-gene-expression": "^0.5.0",
     "jest": "^24.5.0",
     "jest-environment-enzyme": "^7.0.2",
     "jest-enzyme": "^7.0.2",

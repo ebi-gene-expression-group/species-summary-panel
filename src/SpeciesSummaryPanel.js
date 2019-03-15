@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { SixColumnsSpeciesCardContainer } from 'atlas-homepage-cards'
+import ResponsiveCardsRow from 'atlas-homepage-cards'
 
 const tabsId = `species-summary-tabs`
 
 class SpeciesSummaryPanel extends React.Component {
   render() {
-    const { speciesSummary } = this.props
+    const { speciesSummary, responsiveCardsRowProps } = this.props
 
     return(
       [
@@ -24,7 +24,10 @@ class SpeciesSummaryPanel extends React.Component {
           {
             speciesSummary.map(({kingdom, cards}, idx) =>
               <div key={idx} className={`tabs-panel${idx === 0 ? ` is-active` : ``}`} id={kingdom}>
-                <SixColumnsSpeciesCardContainer cards={cards}/>
+                <ResponsiveCardsRow
+                  cards={cards}
+                  {...responsiveCardsRowProps}
+                />
               </div>
             )
           }
@@ -43,13 +46,15 @@ class SpeciesSummaryPanel extends React.Component {
 SpeciesSummaryPanel.propTypes = {
   speciesSummary: PropTypes.arrayOf(PropTypes.shape({
     kingdom: PropTypes.string.isRequired,
-    cards: SixColumnsSpeciesCardContainer.propTypes.cards
+    cards: ResponsiveCardsRow.propTypes.cards
   })).isRequired,
-  onComponentDidMount: PropTypes.func
+  onComponentDidMount: PropTypes.func,
+  responsiveCardsRowProps: PropTypes.object
 }
 
 SpeciesSummaryPanel.defaultProps = {
-  onComponentDidMount: () => {}
+  onComponentDidMount: () => {},
+  responsiveCardsRowProps: {}
 }
 
 export default SpeciesSummaryPanel

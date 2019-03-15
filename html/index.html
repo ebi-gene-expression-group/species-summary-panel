@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <div class="row column margin-bottom-large" id="ea-species"></div>
-    <div class="row column margin-bottom-large" id="scea-species"></div>
+    <div class="row expanded column margin-bottom-large" id="ea-species"></div>
+    <div class="row expanded column margin-bottom-large" id="scea-species"></div>
 
     <script defer src="../dist/vendors.bundle.js"></script>
     <script defer src="../dist/speciesSummaryPanelDemo.bundle.js"></script>
@@ -27,21 +27,26 @@
     <!-- Set to http://localhost:8080/gxa/ or http://localhost:8080/gxa_sc/ -- Remember the trailing slash! -->
     <script>
       document.addEventListener('DOMContentLoaded', function(event) {
+        var columns = 6;
         speciesSummaryPanelDemo.render(
           {
-            host: `http://localhost:8080/gxa/`,
-            resource: `json/species-summary`,
+            host: 'http://localhost:8080/gxa/',
+            resource: 'json/species-summary?limit=' + columns,
             onComponentDidMount: function() {
               $('#ea-species').foundation();
               $('#ea-species').foundationExtendEBI();
+            },
+            responsiveCardsRowProps: {
+              className: 'row expanded',
+              largeColumns: columns
             }
           },
           'ea-species');
 
         speciesSummaryPanelDemo.render(
           {
-            host: `http://localhost:8080/gxa/sc/`,
-            resource: `json/species-summary`,
+            host: 'http://localhost:8080/gxa/sc/',
+            resource: 'json/species-summary',
             onComponentDidMount: function() {
               $('#scea-species').foundation();
               $('#scea-species').foundationExtendEBI();
