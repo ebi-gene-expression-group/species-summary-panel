@@ -3,6 +3,7 @@
 exports[`SpeciesSummaryPanel renders correctly 1`] = `
 <SpeciesSummaryPanel
   onComponentDidMount={[Function]}
+  responsiveCardsRowProps={Object {}}
   speciesSummary={
     Array [
       Object {
@@ -259,7 +260,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
       id="animals"
       key="0"
     >
-      <SixColumnsSpeciesCardContainer
+      <ResponsiveCardsRow
+        CardClass={[Function]}
         cards={
           Array [
             Object {
@@ -370,9 +372,16 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
             },
           ]
         }
+        className="row"
+        hoverColour="AliceBlue"
+        imageIconHeight="2rem"
+        largeColumns={8}
+        mediumColumns={4}
+        smallColumns={2}
+        speciesIconHeight="6rem"
       >
         <div
-          className="row small-up-2 medium-up-3 large-up-6"
+          className="row small-up-2 medium-up-4 large-up-8"
         >
           <styled.div
             className="column column-block"
@@ -385,22 +394,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-bxivhb",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "hfBy",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-bxivhb",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -410,9 +421,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-bxivhb hfBy"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -436,6 +447,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="homo sapiens"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -451,31 +464,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="homo sapiens"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="H"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "indianred",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Homo sapiens"
-                        />
-                      </EbiSpeciesIcon>
+                          species="homo sapiens"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="H"
+                            style={
+                              Object {
+                                "color": "indianred",
+                              }
+                            }
+                            title="Homo sapiens"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -532,7 +552,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
@@ -547,22 +567,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-bxivhb",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "hfBy",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-bxivhb",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -572,9 +594,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-bxivhb hfBy"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -594,6 +616,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="mus musculus"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -609,31 +633,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="mus musculus"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="M"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "indianred",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Mus musculus"
-                        />
-                      </EbiSpeciesIcon>
+                          species="mus musculus"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="M"
+                            style={
+                              Object {
+                                "color": "indianred",
+                              }
+                            }
+                            title="Mus musculus"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -676,7 +707,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
@@ -691,22 +722,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-bxivhb",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "hfBy",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-bxivhb",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -716,9 +749,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-bxivhb hfBy"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -738,6 +771,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="schistosoma mansoni"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -753,31 +788,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="schistosoma mansoni"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="W"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "deepskyblue",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Schistosoma mansoni"
-                        />
-                      </EbiSpeciesIcon>
+                          species="schistosoma mansoni"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="W"
+                            style={
+                              Object {
+                                "color": "deepskyblue",
+                              }
+                            }
+                            title="Schistosoma mansoni"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -820,7 +862,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
@@ -835,22 +877,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-bxivhb",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "hfBy",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-bxivhb",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -860,9 +904,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-bxivhb hfBy"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -882,6 +926,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="drosophila melanogaster"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -897,31 +943,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="drosophila melanogaster"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="F"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "deepskyblue",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Drosophila melanogaster"
-                        />
-                      </EbiSpeciesIcon>
+                          species="drosophila melanogaster"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="F"
+                            style={
+                              Object {
+                                "color": "deepskyblue",
+                              }
+                            }
+                            title="Drosophila melanogaster"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -964,7 +1017,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
@@ -979,22 +1032,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-bxivhb",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "hfBy",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-bxivhb",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1004,9 +1059,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-bxivhb hfBy"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -1026,6 +1081,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="anas platyrhynchos"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -1041,31 +1098,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="anas platyrhynchos"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="❔"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "black",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Anas platyrhynchos"
-                        />
-                      </EbiSpeciesIcon>
+                          species="anas platyrhynchos"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="❔"
+                            style={
+                              Object {
+                                "color": "black",
+                              }
+                            }
+                            title="Anas platyrhynchos"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -1108,7 +1172,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
@@ -1123,22 +1187,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-bxivhb",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "hfBy",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-bxivhb",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1148,9 +1214,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-bxivhb hfBy"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -1170,6 +1236,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="caenorhabditis elegans"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -1185,31 +1253,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="caenorhabditis elegans"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="W"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "deepskyblue",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Caenorhabditis elegans"
-                        />
-                      </EbiSpeciesIcon>
+                          species="caenorhabditis elegans"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="W"
+                            style={
+                              Object {
+                                "color": "deepskyblue",
+                              }
+                            }
+                            title="Caenorhabditis elegans"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -1252,19 +1327,20 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
         </div>
-      </SixColumnsSpeciesCardContainer>
+      </ResponsiveCardsRow>
     </div>
     <div
       className="tabs-panel"
       id="plants"
       key="1"
     >
-      <SixColumnsSpeciesCardContainer
+      <ResponsiveCardsRow
+        CardClass={[Function]}
         cards={
           Array [
             Object {
@@ -1320,9 +1396,16 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
             },
           ]
         }
+        className="row"
+        hoverColour="AliceBlue"
+        imageIconHeight="2rem"
+        largeColumns={8}
+        mediumColumns={4}
+        smallColumns={2}
+        speciesIconHeight="6rem"
       >
         <div
-          className="row small-up-2 medium-up-3 large-up-6"
+          className="row small-up-2 medium-up-4 large-up-8"
         >
           <styled.div
             className="column column-block"
@@ -1335,22 +1418,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-ifAKCX",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "iAfeJP",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-ifAKCX",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1360,9 +1445,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-ifAKCX iAfeJP"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -1382,6 +1467,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="oryza sativa"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -1397,31 +1484,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="oryza sativa"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="6"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "mediumseagreen",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Oryza sativa"
-                        />
-                      </EbiSpeciesIcon>
+                          species="oryza sativa"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="6"
+                            style={
+                              Object {
+                                "color": "mediumseagreen",
+                              }
+                            }
+                            title="Oryza sativa"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -1464,7 +1558,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
@@ -1479,22 +1573,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-ifAKCX",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "iAfeJP",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-ifAKCX",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1504,9 +1600,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-ifAKCX iAfeJP"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -1526,6 +1622,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="zea mays"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -1541,31 +1639,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="zea mays"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="c"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "mediumseagreen",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Zea mays"
-                        />
-                      </EbiSpeciesIcon>
+                          species="zea mays"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="c"
+                            style={
+                              Object {
+                                "color": "mediumseagreen",
+                              }
+                            }
+                            title="Zea mays"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -1608,7 +1713,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
@@ -1623,22 +1728,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-ifAKCX",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "iAfeJP",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-ifAKCX",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1648,9 +1755,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-ifAKCX iAfeJP"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -1670,6 +1777,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="brachypodium distachyon"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -1685,31 +1794,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="brachypodium distachyon"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="%"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "mediumseagreen",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Brachypodium distachyon"
-                        />
-                      </EbiSpeciesIcon>
+                          species="brachypodium distachyon"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="%"
+                            style={
+                              Object {
+                                "color": "mediumseagreen",
+                              }
+                            }
+                            title="Brachypodium distachyon"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -1752,19 +1868,20 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
         </div>
-      </SixColumnsSpeciesCardContainer>
+      </ResponsiveCardsRow>
     </div>
     <div
       className="tabs-panel"
       id="fungi"
       key="2"
     >
-      <SixColumnsSpeciesCardContainer
+      <ResponsiveCardsRow
+        CardClass={[Function]}
         cards={
           Array [
             Object {
@@ -1786,9 +1903,16 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
             },
           ]
         }
+        className="row"
+        hoverColour="AliceBlue"
+        imageIconHeight="2rem"
+        largeColumns={8}
+        mediumColumns={4}
+        smallColumns={2}
+        speciesIconHeight="6rem"
       >
         <div
-          className="row small-up-2 medium-up-3 large-up-6"
+          className="row small-up-2 medium-up-4 large-up-8"
         >
           <styled.div
             className="column column-block"
@@ -1801,22 +1925,24 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "sc-EHOje",
                     "isStatic": true,
-                    "lastClassName": "ikiDkP",
+                    "lastClassName": "hWjXNE",
                     "rules": Array [
                       "
-  border-radius: 8px;
-  :hover {
-    background: AliceBlue;
-  }
-",
+    /* border-radius: 8px; */
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
                     ],
                   },
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "sc-EHOje",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1826,9 +1952,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column column-block sc-htpNat ikiDkP"
+                className="column column-block sc-EHOje hWjXNE"
               >
-                <SpeciesCard
+                <Card
                   content={
                     Array [
                       Object {
@@ -1848,6 +1974,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   }
                   iconSrc="saccharomyces cerevisiae"
                   iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
                 >
                   <div
                     style={
@@ -1863,31 +1991,38 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       style={
                         Object {
                           "borderBottom": 0,
-                          "fontSize": "6rem",
                         }
                       }
                     >
-                      <EbiSpeciesIcon
-                        groupColors={
+                      <span
+                        style={
                           Object {
-                            "other": "deepskyblue",
-                            "plants": "mediumseagreen",
-                            "warmBlooded": "indianred",
+                            "fontSize": "6rem",
                           }
                         }
-                        species="saccharomyces cerevisiae"
                       >
-                        <span
-                          className="icon icon-species"
-                          data-icon="Y"
-                          style={
+                        <EbiSpeciesIcon
+                          groupColors={
                             Object {
-                              "color": "deepskyblue",
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
                             }
                           }
-                          title="Saccharomyces cerevisiae"
-                        />
-                      </EbiSpeciesIcon>
+                          species="saccharomyces cerevisiae"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="Y"
+                            style={
+                              Object {
+                                "color": "deepskyblue",
+                              }
+                            }
+                            title="Saccharomyces cerevisiae"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
                     </a>
                     <h5>
                       <a
@@ -1930,12 +2065,12 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                       </li>
                     </ul>
                   </div>
-                </SpeciesCard>
+                </Card>
               </div>
             </StyledComponent>
           </styled.div>
         </div>
-      </SixColumnsSpeciesCardContainer>
+      </ResponsiveCardsRow>
     </div>
   </div>
 </SpeciesSummaryPanel>
@@ -1944,6 +2079,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
 exports[`SpeciesSummaryPanel renders correctly 2`] = `
 <SpeciesSummaryPanel
   onComponentDidMount={[Function]}
+  responsiveCardsRowProps={Object {}}
   speciesSummary={Array []}
 >
   <ul
