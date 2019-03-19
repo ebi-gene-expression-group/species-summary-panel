@@ -65,4 +65,4 @@ typings/
 # Build files
 dist/
 lib/
-/package-lock.json
+
