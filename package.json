@@ -5,9 +5,9 @@
   "main": "lib/index.js",
   "scripts": {
     "prepack": "rm -rf lib && babel src -d lib --copy-files",
-    "testOnly": "jest",
-    "test": "npm run testOnly",
-    "posttest": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "test": "jest",
+    "posttest": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "postversion": "git push && git push --tags"
   },
   "jest": {
     "setupFilesAfterEnv": [
