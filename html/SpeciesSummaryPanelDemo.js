@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import SpeciesSummaryPanel from '../src/SpeciesSummaryPanel'
-import withFetchLoader from 'atlas-react-fetch-loader'
+import { withFetchLoader } from 'atlas-react-fetch-loader'
 
 const FetchLoadSpeciesSummaryPanel = withFetchLoader(SpeciesSummaryPanel)
 
