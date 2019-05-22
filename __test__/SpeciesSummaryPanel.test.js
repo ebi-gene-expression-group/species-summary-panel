@@ -1,5 +1,3 @@
-import matchMedia from './matchMedia' // Must be imported before the tested file
-
 import SpeciesSummaryPanel from '../src/SpeciesSummaryPanel'
 import { shallow, mount } from 'enzyme'
 
