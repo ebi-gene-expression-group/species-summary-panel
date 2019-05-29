@@ -1,13 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { CarousleCardsRow } from 'atlas-homepage-cards'
+import { CarouselCardsRow } from 'atlas-homepage-cards'
 
 const tabsId = `species-summary-tabs`
 
 class SpeciesSummaryPanel extends React.Component {
   render() {
-    const { speciesSummary, carousleCardsRowProps } = this.props
+    const { speciesSummary, carouselCardsRowProps } = this.props
 
     return(
       [
@@ -24,9 +24,9 @@ class SpeciesSummaryPanel extends React.Component {
           {
             speciesSummary.map(({kingdom, cards}, idx) =>
               <div key={idx} className={`tabs-panel${idx === 0 ? ` is-active` : ``}`} id={kingdom}>
-                <CarousleCardsRow
+                <CarouselCardsRow
                   cards={cards}
-                  {...carousleCardsRowProps}
+                  {...carouselCardsRowProps}
                 />
               </div>
             )
@@ -46,10 +46,10 @@ class SpeciesSummaryPanel extends React.Component {
 SpeciesSummaryPanel.propTypes = {
   speciesSummary: PropTypes.arrayOf(PropTypes.shape({
     kingdom: PropTypes.string.isRequired,
-    cards: CarousleCardsRow.propTypes.cards
+    cards: CarouselCardsRow.propTypes.cards
   })).isRequired,
   onComponentDidMount: PropTypes.func,
-  carousleCardsRowProps: PropTypes.object
+  carouselCardsRowProps: PropTypes.object
 }
 
 SpeciesSummaryPanel.defaultProps = {
