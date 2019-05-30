@@ -74,7 +74,7 @@
               $('#ea-species').foundation();
               $('#ea-species').foundationExtendEBI();
             },
-            carousleCardsRowProps: {
+            carouselCardsRowProps: {
               className: 'row expanded small-up-2 medium-up-3 large-up-6',
               cardContainerClassName: 'column',
               slideSettings: slideSettings
@@ -84,11 +84,16 @@
 
         speciesSummaryPanelDemo.render(
           {
-            host: 'http://localhost:8080/gxa/sc/',
+            host: 'https://www.ebi.ac.uk/gxa/sc/',
             resource: 'json/species-summary?limit=' + columns,
             onComponentDidMount: function() {
               $('#scea-species').foundation();
               $('#scea-species').foundationExtendEBI();
+            },
+            carouselCardsRowProps: {
+              className: 'row expanded small-up-2 medium-up-3 large-up-6',
+              cardContainerClassName: 'column',
+              slideSettings: slideSettings
             }
           },
           'scea-species');
