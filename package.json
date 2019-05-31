@@ -1,6 +1,6 @@
 {
   "name": "species-summary-panel",
-  "version": "1.0.0-snapshot",
+  "version": "1.0.0-rc",
   "description": "Species summary panel to display in Expression Atlas and Single Cell Expression Atlas",
   "main": "lib/index.js",
   "scripts": {
