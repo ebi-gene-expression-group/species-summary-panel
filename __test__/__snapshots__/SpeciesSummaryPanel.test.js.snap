@@ -391,1315 +391,955 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
       >
         <div
           className=""
+          style={
+            Object {
+              "height": "350px",
+              "padding": "inherit",
+            }
+          }
         >
-          <GlobalStyleComponent />
-          <Slider
-            autoplay={true}
-            autoplaySpeed={2000}
-            dots={true}
-            infinite={true}
-            slidesToScroll={1}
-            slidesToShow={6}
-            speed={500}
+          <styled.div
+            className=""
+            key="0"
           >
-            <InnerSlider
-              accessibility={true}
-              adaptiveHeight={false}
-              afterChange={null}
-              appendDots={[Function]}
-              arrows={true}
-              autoplay={true}
-              autoplaySpeed={2000}
-              beforeChange={null}
-              centerMode={false}
-              centerPadding="50px"
+            <StyledComponent
               className=""
-              cssEase="ease"
-              customPaging={[Function]}
-              dots={true}
-              dotsClass="slick-dots"
-              draggable={true}
-              easing="linear"
-              edgeFriction={0.35}
-              fade={false}
-              focusOnSelect={false}
-              infinite={true}
-              initialSlide={0}
-              lazyLoad={null}
-              nextArrow={null}
-              onEdge={null}
-              onInit={null}
-              onLazyLoadError={null}
-              onReInit={null}
-              pauseOnDotsHover={false}
-              pauseOnFocus={false}
-              pauseOnHover={true}
-              prevArrow={null}
-              responsive={null}
-              rows={1}
-              rtl={false}
-              slide="div"
-              slidesPerRow={1}
-              slidesToScroll={1}
-              slidesToShow={6}
-              speed={500}
-              swipe={true}
-              swipeEvent={null}
-              swipeToSlide={false}
-              touchMove={true}
-              touchThreshold={5}
-              unslick={true}
-              useCSS={true}
-              useTransform={true}
-              variableWidth={false}
-              vertical={false}
-              waitForAnimate={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "gxCHar",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
             >
               <div
-                className="slick-slider slick-initialized"
+                className="sc-bxivhb gxCHar"
               >
-                <div
-                  className="slick-list"
-                >
-                  <Track
-                    centerMode={false}
-                    centerPadding="50px"
-                    cssEase="ease"
-                    currentSlide={0}
-                    fade={false}
-                    focusOnSelect={null}
-                    infinite={true}
-                    lazyLoad={null}
-                    lazyLoadedList={Array []}
-                    listHeight={0}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseOver={[Function]}
-                    rtl={false}
-                    slideCount={6}
-                    slideHeight={0}
-                    slideWidth={0}
-                    slidesToScroll={1}
-                    slidesToShow={6}
-                    speed={500}
-                    trackStyle={
+                <Card
+                  content={
+                    Array [
                       Object {
-                        "WebkitTransform": "translate3d(0px, 0px, 0px)",
-                        "WebkitTransition": "",
-                        "msTransform": "translateX(0px)",
-                        "opacity": 1,
-                        "transform": "translate3d(0px, 0px, 0px)",
-                        "transition": "",
+                        "text": "10 experiments",
+                      },
+                      Object {
+                        "text": "Baseline: 7",
+                        "url": "http://localhost:8080/gxa/experiments?species=homo%20sapiens&experimentType=baseline",
+                      },
+                      Object {
+                        "text": "Differential: 3",
+                        "url": "http://localhost:8080/gxa/experiments?species=homo%20sapiens&experimentType=differential",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Homo sapiens",
+                      "url": "http://localhost:8080/gxa/experiments?species=homo%20sapiens",
+                    }
+                  }
+                  iconSrc="homo sapiens"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
                       }
                     }
-                    unslick={true}
-                    variableWidth={false}
-                    vertical={false}
                   >
-                    <div
-                      className="slick-track"
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseOver={[Function]}
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=homo%20sapiens"
                       style={
                         Object {
-                          "WebkitTransform": "translate3d(0px, 0px, 0px)",
-                          "WebkitTransition": "",
-                          "msTransform": "translateX(0px)",
-                          "opacity": 1,
-                          "transform": "translate3d(0px, 0px, 0px)",
-                          "transition": "",
+                          "borderBottom": 0,
                         }
                       }
                     >
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active slick-current"
-                        data-index={0}
-                        key="original0"
-                        onClick={[Function]}
+                      <span
                         style={
                           Object {
-                            "outline": "none",
-                            "width": 0,
+                            "fontSize": "6rem",
                           }
                         }
-                        tabIndex="-1"
                       >
-                        <div
-                          key="0"
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="homo sapiens"
                         >
-                          <styled.div
-                            className=""
-                            key="0"
+                          <span
+                            className="icon icon-species"
+                            data-icon="H"
                             style={
                               Object {
-                                "display": "inline-block",
-                                "width": "100%",
+                                "color": "indianred",
                               }
                             }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bxivhb",
-                                    "isStatic": true,
-                                    "lastClassName": "gxCHar",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-bxivhb",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-bxivhb gxCHar"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "10 experiments",
-                                      },
-                                      Object {
-                                        "text": "Baseline: 7",
-                                        "url": "http://localhost:8080/gxa/experiments?species=homo%20sapiens&experimentType=baseline",
-                                      },
-                                      Object {
-                                        "text": "Differential: 3",
-                                        "url": "http://localhost:8080/gxa/experiments?species=homo%20sapiens&experimentType=differential",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Homo sapiens",
-                                      "url": "http://localhost:8080/gxa/experiments?species=homo%20sapiens",
-                                    }
-                                  }
-                                  iconSrc="homo sapiens"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=homo%20sapiens"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="homo sapiens"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="H"
-                                            style={
-                                              Object {
-                                                "color": "indianred",
-                                              }
-                                            }
-                                            title="Homo sapiens"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=homo%20sapiens"
-                                      >
-                                        Homo sapiens
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="10 experiments-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        10 experiments
-                                      </li>
-                                      <li
-                                        key="Baseline: 7-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=homo%20sapiens&experimentType=baseline"
-                                        >
-                                          Baseline: 7
-                                        </a>
-                                      </li>
-                                      <li
-                                        key="Differential: 3-2"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=homo%20sapiens&experimentType=differential"
-                                        >
-                                          Differential: 3
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active"
-                        data-index={1}
-                        key="original1"
-                        onClick={[Function]}
+                            title="Homo sapiens"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=homo%20sapiens"
+                      >
+                        Homo sapiens
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="10 experiments-0"
                         style={
                           Object {
-                            "outline": "none",
-                            "width": 0,
+                            "marginBottom": "0.3rem",
                           }
                         }
-                        tabIndex="-1"
                       >
-                        <div
-                          key="11"
-                        >
-                          <styled.div
-                            className=""
-                            key="111"
-                            style={
-                              Object {
-                                "display": "inline-block",
-                                "width": "100%",
-                              }
-                            }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bxivhb",
-                                    "isStatic": true,
-                                    "lastClassName": "gxCHar",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-bxivhb",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-bxivhb gxCHar"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "2 experiments",
-                                      },
-                                      Object {
-                                        "text": "Differential: 2",
-                                        "url": "http://localhost:8080/gxa/experiments?species=mus%20musculus&experimentType=differential",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Mus musculus",
-                                      "url": "http://localhost:8080/gxa/experiments?species=mus%20musculus",
-                                    }
-                                  }
-                                  iconSrc="mus musculus"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=mus%20musculus"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="mus musculus"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="M"
-                                            style={
-                                              Object {
-                                                "color": "indianred",
-                                              }
-                                            }
-                                            title="Mus musculus"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=mus%20musculus"
-                                      >
-                                        Mus musculus
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="2 experiments-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        2 experiments
-                                      </li>
-                                      <li
-                                        key="Differential: 2-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=mus%20musculus&experimentType=differential"
-                                        >
-                                          Differential: 2
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active"
-                        data-index={2}
-                        key="original2"
-                        onClick={[Function]}
+                        10 experiments
+                      </li>
+                      <li
+                        key="Baseline: 7-1"
                         style={
                           Object {
-                            "outline": "none",
-                            "width": 0,
+                            "marginBottom": "0.3rem",
                           }
                         }
-                        tabIndex="-1"
                       >
-                        <div
-                          key="22"
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=homo%20sapiens&experimentType=baseline"
                         >
-                          <styled.div
-                            className=""
-                            key="222"
-                            style={
-                              Object {
-                                "display": "inline-block",
-                                "width": "100%",
-                              }
-                            }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bxivhb",
-                                    "isStatic": true,
-                                    "lastClassName": "gxCHar",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-bxivhb",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-bxivhb gxCHar"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "1 experiment",
-                                      },
-                                      Object {
-                                        "text": "Baseline: 1",
-                                        "url": "http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni&experimentType=baseline",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Schistosoma mansoni",
-                                      "url": "http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni",
-                                    }
-                                  }
-                                  iconSrc="schistosoma mansoni"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="schistosoma mansoni"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="W"
-                                            style={
-                                              Object {
-                                                "color": "deepskyblue",
-                                              }
-                                            }
-                                            title="Schistosoma mansoni"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni"
-                                      >
-                                        Schistosoma mansoni
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="1 experiment-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        1 experiment
-                                      </li>
-                                      <li
-                                        key="Baseline: 1-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni&experimentType=baseline"
-                                        >
-                                          Baseline: 1
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active"
-                        data-index={3}
-                        key="original3"
-                        onClick={[Function]}
+                          Baseline: 7
+                        </a>
+                      </li>
+                      <li
+                        key="Differential: 3-2"
                         style={
                           Object {
-                            "outline": "none",
-                            "width": 0,
+                            "marginBottom": "0.3rem",
                           }
                         }
-                        tabIndex="-1"
                       >
-                        <div
-                          key="33"
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=homo%20sapiens&experimentType=differential"
                         >
-                          <styled.div
-                            className=""
-                            key="333"
-                            style={
-                              Object {
-                                "display": "inline-block",
-                                "width": "100%",
-                              }
-                            }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bxivhb",
-                                    "isStatic": true,
-                                    "lastClassName": "gxCHar",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-bxivhb",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-bxivhb gxCHar"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "1 experiment",
-                                      },
-                                      Object {
-                                        "text": "Differential: 1",
-                                        "url": "http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster&experimentType=differential",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Drosophila melanogaster",
-                                      "url": "http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster",
-                                    }
-                                  }
-                                  iconSrc="drosophila melanogaster"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="drosophila melanogaster"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="F"
-                                            style={
-                                              Object {
-                                                "color": "deepskyblue",
-                                              }
-                                            }
-                                            title="Drosophila melanogaster"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster"
-                                      >
-                                        Drosophila melanogaster
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="1 experiment-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        1 experiment
-                                      </li>
-                                      <li
-                                        key="Differential: 1-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster&experimentType=differential"
-                                        >
-                                          Differential: 1
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active"
-                        data-index={4}
-                        key="original4"
-                        onClick={[Function]}
-                        style={
-                          Object {
-                            "outline": "none",
-                            "width": 0,
-                          }
-                        }
-                        tabIndex="-1"
-                      >
-                        <div
-                          key="44"
-                        >
-                          <styled.div
-                            className=""
-                            key="444"
-                            style={
-                              Object {
-                                "display": "inline-block",
-                                "width": "100%",
-                              }
-                            }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bxivhb",
-                                    "isStatic": true,
-                                    "lastClassName": "gxCHar",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-bxivhb",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-bxivhb gxCHar"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "1 experiment",
-                                      },
-                                      Object {
-                                        "text": "Differential: 1",
-                                        "url": "http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos&experimentType=differential",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Anas platyrhynchos",
-                                      "url": "http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos",
-                                    }
-                                  }
-                                  iconSrc="anas platyrhynchos"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="anas platyrhynchos"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="❔"
-                                            style={
-                                              Object {
-                                                "color": "black",
-                                              }
-                                            }
-                                            title="Anas platyrhynchos"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos"
-                                      >
-                                        Anas platyrhynchos
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="1 experiment-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        1 experiment
-                                      </li>
-                                      <li
-                                        key="Differential: 1-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos&experimentType=differential"
-                                        >
-                                          Differential: 1
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active"
-                        data-index={5}
-                        key="original5"
-                        onClick={[Function]}
-                        style={
-                          Object {
-                            "outline": "none",
-                            "width": 0,
-                          }
-                        }
-                        tabIndex="-1"
-                      >
-                        <div
-                          key="55"
-                        >
-                          <styled.div
-                            className=""
-                            key="555"
-                            style={
-                              Object {
-                                "display": "inline-block",
-                                "width": "100%",
-                              }
-                            }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bxivhb",
-                                    "isStatic": true,
-                                    "lastClassName": "gxCHar",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-bxivhb",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-bxivhb gxCHar"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "1 experiment",
-                                      },
-                                      Object {
-                                        "text": "Differential: 1",
-                                        "url": "http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans&experimentType=differential",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Caenorhabditis elegans",
-                                      "url": "http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans",
-                                    }
-                                  }
-                                  iconSrc="caenorhabditis elegans"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="caenorhabditis elegans"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="W"
-                                            style={
-                                              Object {
-                                                "color": "deepskyblue",
-                                              }
-                                            }
-                                            title="Caenorhabditis elegans"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans"
-                                      >
-                                        Caenorhabditis elegans
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="1 experiment-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        1 experiment
-                                      </li>
-                                      <li
-                                        key="Differential: 1-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans&experimentType=differential"
-                                        >
-                                          Differential: 1
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                    </div>
-                  </Track>
-                </div>
+                          Differential: 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
               </div>
-            </InnerSlider>
-          </Slider>
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            className=""
+            key="1"
+          >
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "gxCHar",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bxivhb gxCHar"
+              >
+                <Card
+                  content={
+                    Array [
+                      Object {
+                        "text": "2 experiments",
+                      },
+                      Object {
+                        "text": "Differential: 2",
+                        "url": "http://localhost:8080/gxa/experiments?species=mus%20musculus&experimentType=differential",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Mus musculus",
+                      "url": "http://localhost:8080/gxa/experiments?species=mus%20musculus",
+                    }
+                  }
+                  iconSrc="mus musculus"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=mus%20musculus"
+                      style={
+                        Object {
+                          "borderBottom": 0,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "fontSize": "6rem",
+                          }
+                        }
+                      >
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="mus musculus"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="M"
+                            style={
+                              Object {
+                                "color": "indianred",
+                              }
+                            }
+                            title="Mus musculus"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=mus%20musculus"
+                      >
+                        Mus musculus
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="2 experiments-0"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        2 experiments
+                      </li>
+                      <li
+                        key="Differential: 2-1"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=mus%20musculus&experimentType=differential"
+                        >
+                          Differential: 2
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            className=""
+            key="2"
+          >
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "gxCHar",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bxivhb gxCHar"
+              >
+                <Card
+                  content={
+                    Array [
+                      Object {
+                        "text": "1 experiment",
+                      },
+                      Object {
+                        "text": "Baseline: 1",
+                        "url": "http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni&experimentType=baseline",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Schistosoma mansoni",
+                      "url": "http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni",
+                    }
+                  }
+                  iconSrc="schistosoma mansoni"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni"
+                      style={
+                        Object {
+                          "borderBottom": 0,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "fontSize": "6rem",
+                          }
+                        }
+                      >
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="schistosoma mansoni"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="W"
+                            style={
+                              Object {
+                                "color": "deepskyblue",
+                              }
+                            }
+                            title="Schistosoma mansoni"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni"
+                      >
+                        Schistosoma mansoni
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="1 experiment-0"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        1 experiment
+                      </li>
+                      <li
+                        key="Baseline: 1-1"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=schistosoma%20mansoni&experimentType=baseline"
+                        >
+                          Baseline: 1
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            className=""
+            key="3"
+          >
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "gxCHar",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bxivhb gxCHar"
+              >
+                <Card
+                  content={
+                    Array [
+                      Object {
+                        "text": "1 experiment",
+                      },
+                      Object {
+                        "text": "Differential: 1",
+                        "url": "http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster&experimentType=differential",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Drosophila melanogaster",
+                      "url": "http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster",
+                    }
+                  }
+                  iconSrc="drosophila melanogaster"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster"
+                      style={
+                        Object {
+                          "borderBottom": 0,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "fontSize": "6rem",
+                          }
+                        }
+                      >
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="drosophila melanogaster"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="F"
+                            style={
+                              Object {
+                                "color": "deepskyblue",
+                              }
+                            }
+                            title="Drosophila melanogaster"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster"
+                      >
+                        Drosophila melanogaster
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="1 experiment-0"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        1 experiment
+                      </li>
+                      <li
+                        key="Differential: 1-1"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=drosophila%20melanogaster&experimentType=differential"
+                        >
+                          Differential: 1
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            className=""
+            key="4"
+          >
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "gxCHar",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bxivhb gxCHar"
+              >
+                <Card
+                  content={
+                    Array [
+                      Object {
+                        "text": "1 experiment",
+                      },
+                      Object {
+                        "text": "Differential: 1",
+                        "url": "http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos&experimentType=differential",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Anas platyrhynchos",
+                      "url": "http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos",
+                    }
+                  }
+                  iconSrc="anas platyrhynchos"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos"
+                      style={
+                        Object {
+                          "borderBottom": 0,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "fontSize": "6rem",
+                          }
+                        }
+                      >
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="anas platyrhynchos"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="❔"
+                            style={
+                              Object {
+                                "color": "black",
+                              }
+                            }
+                            title="Anas platyrhynchos"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos"
+                      >
+                        Anas platyrhynchos
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="1 experiment-0"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        1 experiment
+                      </li>
+                      <li
+                        key="Differential: 1-1"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=anas%20platyrhynchos&experimentType=differential"
+                        >
+                          Differential: 1
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            className=""
+            key="5"
+          >
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-bxivhb",
+                    "isStatic": true,
+                    "lastClassName": "gxCHar",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-bxivhb",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-bxivhb gxCHar"
+              >
+                <Card
+                  content={
+                    Array [
+                      Object {
+                        "text": "1 experiment",
+                      },
+                      Object {
+                        "text": "Differential: 1",
+                        "url": "http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans&experimentType=differential",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Caenorhabditis elegans",
+                      "url": "http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans",
+                    }
+                  }
+                  iconSrc="caenorhabditis elegans"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans"
+                      style={
+                        Object {
+                          "borderBottom": 0,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "fontSize": "6rem",
+                          }
+                        }
+                      >
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="caenorhabditis elegans"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="W"
+                            style={
+                              Object {
+                                "color": "deepskyblue",
+                              }
+                            }
+                            title="Caenorhabditis elegans"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans"
+                      >
+                        Caenorhabditis elegans
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="1 experiment-0"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        1 experiment
+                      </li>
+                      <li
+                        key="Differential: 1-1"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=caenorhabditis%20elegans&experimentType=differential"
+                        >
+                          Differential: 1
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
+              </div>
+            </StyledComponent>
+          </styled.div>
         </div>
       </CarouselCardsRow>
     </div>
@@ -1784,715 +1424,475 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
       >
         <div
           className=""
+          style={
+            Object {
+              "height": "350px",
+              "padding": "inherit",
+            }
+          }
         >
-          <GlobalStyleComponent />
-          <Slider
-            autoplay={true}
-            autoplaySpeed={2000}
-            dots={true}
-            infinite={true}
-            slidesToScroll={1}
-            slidesToShow={3}
-            speed={500}
+          <styled.div
+            className=""
+            key="0"
           >
-            <InnerSlider
-              accessibility={true}
-              adaptiveHeight={false}
-              afterChange={null}
-              appendDots={[Function]}
-              arrows={true}
-              autoplay={true}
-              autoplaySpeed={2000}
-              beforeChange={null}
-              centerMode={false}
-              centerPadding="50px"
+            <StyledComponent
               className=""
-              cssEase="ease"
-              customPaging={[Function]}
-              dots={true}
-              dotsClass="slick-dots"
-              draggable={true}
-              easing="linear"
-              edgeFriction={0.35}
-              fade={false}
-              focusOnSelect={false}
-              infinite={true}
-              initialSlide={0}
-              lazyLoad={null}
-              nextArrow={null}
-              onEdge={null}
-              onInit={null}
-              onLazyLoadError={null}
-              onReInit={null}
-              pauseOnDotsHover={false}
-              pauseOnFocus={false}
-              pauseOnHover={true}
-              prevArrow={null}
-              responsive={null}
-              rows={1}
-              rtl={false}
-              slide="div"
-              slidesPerRow={1}
-              slidesToScroll={1}
-              slidesToShow={3}
-              speed={500}
-              swipe={true}
-              swipeEvent={null}
-              swipeToSlide={false}
-              touchMove={true}
-              touchThreshold={5}
-              unslick={true}
-              useCSS={true}
-              useTransform={true}
-              variableWidth={false}
-              vertical={false}
-              waitForAnimate={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-ifAKCX",
+                    "isStatic": true,
+                    "lastClassName": "gnXemY",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-ifAKCX",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
             >
               <div
-                className="slick-slider slick-initialized"
+                className="sc-ifAKCX gnXemY"
               >
-                <div
-                  className="slick-list"
-                >
-                  <Track
-                    centerMode={false}
-                    centerPadding="50px"
-                    cssEase="ease"
-                    currentSlide={0}
-                    fade={false}
-                    focusOnSelect={null}
-                    infinite={true}
-                    lazyLoad={null}
-                    lazyLoadedList={Array []}
-                    listHeight={0}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseOver={[Function]}
-                    rtl={false}
-                    slideCount={3}
-                    slideHeight={0}
-                    slideWidth={0}
-                    slidesToScroll={1}
-                    slidesToShow={3}
-                    speed={500}
-                    trackStyle={
+                <Card
+                  content={
+                    Array [
                       Object {
-                        "WebkitTransform": "translate3d(0px, 0px, 0px)",
-                        "WebkitTransition": "",
-                        "msTransform": "translateX(0px)",
-                        "opacity": 1,
-                        "transform": "translate3d(0px, 0px, 0px)",
-                        "transition": "",
+                        "text": "3 experiments",
+                      },
+                      Object {
+                        "text": "Differential: 3",
+                        "url": "http://localhost:8080/gxa/experiments?species=oryza%20sativa&experimentType=differential",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Oryza sativa",
+                      "url": "http://localhost:8080/gxa/experiments?species=oryza%20sativa",
+                    }
+                  }
+                  iconSrc="oryza sativa"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
                       }
                     }
-                    unslick={true}
-                    variableWidth={false}
-                    vertical={false}
                   >
-                    <div
-                      className="slick-track"
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseOver={[Function]}
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=oryza%20sativa"
                       style={
                         Object {
-                          "WebkitTransform": "translate3d(0px, 0px, 0px)",
-                          "WebkitTransition": "",
-                          "msTransform": "translateX(0px)",
-                          "opacity": 1,
-                          "transform": "translate3d(0px, 0px, 0px)",
-                          "transition": "",
+                          "borderBottom": 0,
                         }
                       }
                     >
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active slick-current"
-                        data-index={0}
-                        key="original0"
-                        onClick={[Function]}
+                      <span
                         style={
                           Object {
-                            "outline": "none",
-                            "width": 0,
+                            "fontSize": "6rem",
                           }
                         }
-                        tabIndex="-1"
                       >
-                        <div
-                          key="0"
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="oryza sativa"
                         >
-                          <styled.div
-                            className=""
-                            key="0"
+                          <span
+                            className="icon icon-species"
+                            data-icon="6"
                             style={
                               Object {
-                                "display": "inline-block",
-                                "width": "100%",
+                                "color": "mediumseagreen",
                               }
                             }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-ifAKCX",
-                                    "isStatic": true,
-                                    "lastClassName": "gnXemY",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-ifAKCX",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-ifAKCX gnXemY"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "3 experiments",
-                                      },
-                                      Object {
-                                        "text": "Differential: 3",
-                                        "url": "http://localhost:8080/gxa/experiments?species=oryza%20sativa&experimentType=differential",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Oryza sativa",
-                                      "url": "http://localhost:8080/gxa/experiments?species=oryza%20sativa",
-                                    }
-                                  }
-                                  iconSrc="oryza sativa"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=oryza%20sativa"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="oryza sativa"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="6"
-                                            style={
-                                              Object {
-                                                "color": "mediumseagreen",
-                                              }
-                                            }
-                                            title="Oryza sativa"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=oryza%20sativa"
-                                      >
-                                        Oryza sativa
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="3 experiments-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        3 experiments
-                                      </li>
-                                      <li
-                                        key="Differential: 3-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=oryza%20sativa&experimentType=differential"
-                                        >
-                                          Differential: 3
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active"
-                        data-index={1}
-                        key="original1"
-                        onClick={[Function]}
+                            title="Oryza sativa"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=oryza%20sativa"
+                      >
+                        Oryza sativa
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="3 experiments-0"
                         style={
                           Object {
-                            "outline": "none",
-                            "width": 0,
+                            "marginBottom": "0.3rem",
                           }
                         }
-                        tabIndex="-1"
                       >
-                        <div
-                          key="11"
-                        >
-                          <styled.div
-                            className=""
-                            key="111"
-                            style={
-                              Object {
-                                "display": "inline-block",
-                                "width": "100%",
-                              }
-                            }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-ifAKCX",
-                                    "isStatic": true,
-                                    "lastClassName": "gnXemY",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-ifAKCX",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-ifAKCX gnXemY"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "2 experiments",
-                                      },
-                                      Object {
-                                        "text": "Differential: 2",
-                                        "url": "http://localhost:8080/gxa/experiments?species=zea%20mays&experimentType=differential",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Zea mays",
-                                      "url": "http://localhost:8080/gxa/experiments?species=zea%20mays",
-                                    }
-                                  }
-                                  iconSrc="zea mays"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=zea%20mays"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="zea mays"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="c"
-                                            style={
-                                              Object {
-                                                "color": "mediumseagreen",
-                                              }
-                                            }
-                                            title="Zea mays"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=zea%20mays"
-                                      >
-                                        Zea mays
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="2 experiments-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        2 experiments
-                                      </li>
-                                      <li
-                                        key="Differential: 2-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=zea%20mays&experimentType=differential"
-                                        >
-                                          Differential: 2
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active"
-                        data-index={2}
-                        key="original2"
-                        onClick={[Function]}
+                        3 experiments
+                      </li>
+                      <li
+                        key="Differential: 3-1"
                         style={
                           Object {
-                            "outline": "none",
-                            "width": 0,
+                            "marginBottom": "0.3rem",
                           }
                         }
-                        tabIndex="-1"
                       >
-                        <div
-                          key="22"
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=oryza%20sativa&experimentType=differential"
                         >
-                          <styled.div
-                            className=""
-                            key="222"
-                            style={
-                              Object {
-                                "display": "inline-block",
-                                "width": "100%",
-                              }
-                            }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-ifAKCX",
-                                    "isStatic": true,
-                                    "lastClassName": "gnXemY",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-ifAKCX",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-ifAKCX gnXemY"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "1 experiment",
-                                      },
-                                      Object {
-                                        "text": "Baseline: 1",
-                                        "url": "http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon&experimentType=baseline",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Brachypodium distachyon",
-                                      "url": "http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon",
-                                    }
-                                  }
-                                  iconSrc="brachypodium distachyon"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="brachypodium distachyon"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="%"
-                                            style={
-                                              Object {
-                                                "color": "mediumseagreen",
-                                              }
-                                            }
-                                            title="Brachypodium distachyon"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon"
-                                      >
-                                        Brachypodium distachyon
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="1 experiment-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        1 experiment
-                                      </li>
-                                      <li
-                                        key="Baseline: 1-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon&experimentType=baseline"
-                                        >
-                                          Baseline: 1
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                    </div>
-                  </Track>
-                </div>
+                          Differential: 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
               </div>
-            </InnerSlider>
-          </Slider>
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            className=""
+            key="1"
+          >
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-ifAKCX",
+                    "isStatic": true,
+                    "lastClassName": "gnXemY",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-ifAKCX",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-ifAKCX gnXemY"
+              >
+                <Card
+                  content={
+                    Array [
+                      Object {
+                        "text": "2 experiments",
+                      },
+                      Object {
+                        "text": "Differential: 2",
+                        "url": "http://localhost:8080/gxa/experiments?species=zea%20mays&experimentType=differential",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Zea mays",
+                      "url": "http://localhost:8080/gxa/experiments?species=zea%20mays",
+                    }
+                  }
+                  iconSrc="zea mays"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=zea%20mays"
+                      style={
+                        Object {
+                          "borderBottom": 0,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "fontSize": "6rem",
+                          }
+                        }
+                      >
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="zea mays"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="c"
+                            style={
+                              Object {
+                                "color": "mediumseagreen",
+                              }
+                            }
+                            title="Zea mays"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=zea%20mays"
+                      >
+                        Zea mays
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="2 experiments-0"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        2 experiments
+                      </li>
+                      <li
+                        key="Differential: 2-1"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=zea%20mays&experimentType=differential"
+                        >
+                          Differential: 2
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
+              </div>
+            </StyledComponent>
+          </styled.div>
+          <styled.div
+            className=""
+            key="2"
+          >
+            <StyledComponent
+              className=""
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-ifAKCX",
+                    "isStatic": true,
+                    "lastClassName": "gnXemY",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-ifAKCX",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="sc-ifAKCX gnXemY"
+              >
+                <Card
+                  content={
+                    Array [
+                      Object {
+                        "text": "1 experiment",
+                      },
+                      Object {
+                        "text": "Baseline: 1",
+                        "url": "http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon&experimentType=baseline",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Brachypodium distachyon",
+                      "url": "http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon",
+                    }
+                  }
+                  iconSrc="brachypodium distachyon"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon"
+                      style={
+                        Object {
+                          "borderBottom": 0,
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "fontSize": "6rem",
+                          }
+                        }
+                      >
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="brachypodium distachyon"
+                        >
+                          <span
+                            className="icon icon-species"
+                            data-icon="%"
+                            style={
+                              Object {
+                                "color": "mediumseagreen",
+                              }
+                            }
+                            title="Brachypodium distachyon"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon"
+                      >
+                        Brachypodium distachyon
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="1 experiment-0"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        1 experiment
+                      </li>
+                      <li
+                        key="Baseline: 1-1"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=brachypodium%20distachyon&experimentType=baseline"
+                        >
+                          Baseline: 1
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
+              </div>
+            </StyledComponent>
+          </styled.div>
         </div>
       </CarouselCardsRow>
     </div>
@@ -2543,327 +1943,167 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
       >
         <div
           className=""
+          style={
+            Object {
+              "height": "350px",
+              "padding": "inherit",
+            }
+          }
         >
-          <GlobalStyleComponent />
-          <Slider
-            autoplay={true}
-            autoplaySpeed={2000}
-            dots={true}
-            infinite={true}
-            slidesToScroll={1}
-            slidesToShow={1}
-            speed={500}
+          <styled.div
+            className=""
+            key="0"
           >
-            <InnerSlider
-              accessibility={true}
-              adaptiveHeight={false}
-              afterChange={null}
-              appendDots={[Function]}
-              arrows={true}
-              autoplay={true}
-              autoplaySpeed={2000}
-              beforeChange={null}
-              centerMode={false}
-              centerPadding="50px"
+            <StyledComponent
               className=""
-              cssEase="ease"
-              customPaging={[Function]}
-              dots={true}
-              dotsClass="slick-dots"
-              draggable={true}
-              easing="linear"
-              edgeFriction={0.35}
-              fade={false}
-              focusOnSelect={false}
-              infinite={true}
-              initialSlide={0}
-              lazyLoad={null}
-              nextArrow={null}
-              onEdge={null}
-              onInit={null}
-              onLazyLoadError={null}
-              onReInit={null}
-              pauseOnDotsHover={false}
-              pauseOnFocus={false}
-              pauseOnHover={true}
-              prevArrow={null}
-              responsive={null}
-              rows={1}
-              rtl={false}
-              slide="div"
-              slidesPerRow={1}
-              slidesToScroll={1}
-              slidesToShow={1}
-              speed={500}
-              swipe={true}
-              swipeEvent={null}
-              swipeToSlide={false}
-              touchMove={true}
-              touchThreshold={5}
-              unslick={true}
-              useCSS={true}
-              useTransform={true}
-              variableWidth={false}
-              vertical={false}
-              waitForAnimate={true}
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-EHOje",
+                    "isStatic": true,
+                    "lastClassName": "fHEUvF",
+                    "rules": Array [
+                      "
+    :hover {
+      background: ",
+                      "AliceBlue",
+                      ";
+    }
+  ",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "sc-EHOje",
+                  "target": "div",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
             >
               <div
-                className="slick-slider slick-initialized"
+                className="sc-EHOje fHEUvF"
               >
-                <div
-                  className="slick-list"
-                >
-                  <Track
-                    centerMode={false}
-                    centerPadding="50px"
-                    cssEase="ease"
-                    currentSlide={0}
-                    fade={false}
-                    focusOnSelect={null}
-                    infinite={true}
-                    lazyLoad={null}
-                    lazyLoadedList={Array []}
-                    listHeight={0}
-                    onMouseEnter={[Function]}
-                    onMouseLeave={[Function]}
-                    onMouseOver={[Function]}
-                    rtl={false}
-                    slideCount={1}
-                    slideHeight={0}
-                    slideWidth={0}
-                    slidesToScroll={1}
-                    slidesToShow={1}
-                    speed={500}
-                    trackStyle={
+                <Card
+                  content={
+                    Array [
                       Object {
-                        "WebkitTransform": "translate3d(0px, 0px, 0px)",
-                        "WebkitTransition": "",
-                        "msTransform": "translateX(0px)",
-                        "opacity": 1,
-                        "transform": "translate3d(0px, 0px, 0px)",
-                        "transition": "",
+                        "text": "1 experiment",
+                      },
+                      Object {
+                        "text": "Differential: 1",
+                        "url": "http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae&experimentType=differential",
+                      },
+                    ]
+                  }
+                  description={
+                    Object {
+                      "text": "Saccharomyces cerevisiae",
+                      "url": "http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae",
+                    }
+                  }
+                  iconSrc="saccharomyces cerevisiae"
+                  iconType="species"
+                  imageIconHeight="2rem"
+                  speciesIconHeight="6rem"
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginBottom": 0,
+                        "paddingBottom": "2rem",
+                        "textAlign": "center",
                       }
                     }
-                    unslick={true}
-                    variableWidth={false}
-                    vertical={false}
                   >
-                    <div
-                      className="slick-track"
-                      onMouseEnter={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseOver={[Function]}
+                    <a
+                      href="http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae"
                       style={
                         Object {
-                          "WebkitTransform": "translate3d(0px, 0px, 0px)",
-                          "WebkitTransition": "",
-                          "msTransform": "translateX(0px)",
-                          "opacity": 1,
-                          "transform": "translate3d(0px, 0px, 0px)",
-                          "transition": "",
+                          "borderBottom": 0,
                         }
                       }
                     >
-                      <div
-                        aria-hidden={false}
-                        className="slick-slide slick-active slick-current"
-                        data-index={0}
-                        key="original0"
-                        onClick={[Function]}
+                      <span
                         style={
                           Object {
-                            "outline": "none",
-                            "width": 0,
+                            "fontSize": "6rem",
                           }
                         }
-                        tabIndex="-1"
                       >
-                        <div
-                          key="0"
+                        <EbiSpeciesIcon
+                          groupColors={
+                            Object {
+                              "other": "deepskyblue",
+                              "plants": "mediumseagreen",
+                              "warmBlooded": "indianred",
+                            }
+                          }
+                          species="saccharomyces cerevisiae"
                         >
-                          <styled.div
-                            className=""
-                            key="0"
+                          <span
+                            className="icon icon-species"
+                            data-icon="Y"
                             style={
                               Object {
-                                "display": "inline-block",
-                                "width": "100%",
+                                "color": "deepskyblue",
                               }
                             }
-                            tabIndex={-1}
-                          >
-                            <StyledComponent
-                              className=""
-                              forwardedComponent={
-                                Object {
-                                  "$$typeof": Symbol(react.forward_ref),
-                                  "attrs": Array [],
-                                  "componentStyle": ComponentStyle {
-                                    "componentId": "sc-EHOje",
-                                    "isStatic": true,
-                                    "lastClassName": "fHEUvF",
-                                    "rules": Array [
-                                      "
-    :hover {
-      background: ",
-                                      "AliceBlue",
-                                      ";
-    }
-  ",
-                                    ],
-                                  },
-                                  "displayName": "styled.div",
-                                  "foldedComponentIds": Array [],
-                                  "render": [Function],
-                                  "styledComponentId": "sc-EHOje",
-                                  "target": "div",
-                                  "toString": [Function],
-                                  "warnTooManyClasses": [Function],
-                                  "withComponent": [Function],
-                                }
-                              }
-                              forwardedRef={null}
-                              style={
-                                Object {
-                                  "display": "inline-block",
-                                  "width": "100%",
-                                }
-                              }
-                              tabIndex={-1}
-                            >
-                              <div
-                                className="sc-EHOje fHEUvF"
-                                style={
-                                  Object {
-                                    "display": "inline-block",
-                                    "width": "100%",
-                                  }
-                                }
-                                tabIndex={-1}
-                              >
-                                <Card
-                                  content={
-                                    Array [
-                                      Object {
-                                        "text": "1 experiment",
-                                      },
-                                      Object {
-                                        "text": "Differential: 1",
-                                        "url": "http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae&experimentType=differential",
-                                      },
-                                    ]
-                                  }
-                                  description={
-                                    Object {
-                                      "text": "Saccharomyces cerevisiae",
-                                      "url": "http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae",
-                                    }
-                                  }
-                                  iconSrc="saccharomyces cerevisiae"
-                                  iconType="species"
-                                  imageIconHeight="2rem"
-                                  speciesIconHeight="6rem"
-                                >
-                                  <div
-                                    style={
-                                      Object {
-                                        "marginBottom": 0,
-                                        "paddingBottom": "2rem",
-                                        "textAlign": "center",
-                                      }
-                                    }
-                                  >
-                                    <a
-                                      href="http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae"
-                                      style={
-                                        Object {
-                                          "borderBottom": 0,
-                                        }
-                                      }
-                                    >
-                                      <span
-                                        style={
-                                          Object {
-                                            "fontSize": "6rem",
-                                          }
-                                        }
-                                      >
-                                        <EbiSpeciesIcon
-                                          groupColors={
-                                            Object {
-                                              "other": "deepskyblue",
-                                              "plants": "mediumseagreen",
-                                              "warmBlooded": "indianred",
-                                            }
-                                          }
-                                          species="saccharomyces cerevisiae"
-                                        >
-                                          <span
-                                            className="icon icon-species"
-                                            data-icon="Y"
-                                            style={
-                                              Object {
-                                                "color": "deepskyblue",
-                                              }
-                                            }
-                                            title="Saccharomyces cerevisiae"
-                                          />
-                                        </EbiSpeciesIcon>
-                                      </span>
-                                    </a>
-                                    <h5>
-                                      <a
-                                        href="http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae"
-                                      >
-                                        Saccharomyces cerevisiae
-                                      </a>
-                                    </h5>
-                                    <ul
-                                      style={
-                                        Object {
-                                          "listStyle": "none",
-                                          "marginLeft": 0,
-                                        }
-                                      }
-                                    >
-                                      <li
-                                        key="1 experiment-0"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        1 experiment
-                                      </li>
-                                      <li
-                                        key="Differential: 1-1"
-                                        style={
-                                          Object {
-                                            "marginBottom": "0.3rem",
-                                          }
-                                        }
-                                      >
-                                        <a
-                                          href="http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae&experimentType=differential"
-                                        >
-                                          Differential: 1
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </Card>
-                              </div>
-                            </StyledComponent>
-                          </styled.div>
-                        </div>
-                      </div>
-                    </div>
-                  </Track>
-                </div>
+                            title="Saccharomyces cerevisiae"
+                          />
+                        </EbiSpeciesIcon>
+                      </span>
+                    </a>
+                    <h5>
+                      <a
+                        href="http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae"
+                      >
+                        Saccharomyces cerevisiae
+                      </a>
+                    </h5>
+                    <ul
+                      style={
+                        Object {
+                          "listStyle": "none",
+                          "marginLeft": 0,
+                        }
+                      }
+                    >
+                      <li
+                        key="1 experiment-0"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        1 experiment
+                      </li>
+                      <li
+                        key="Differential: 1-1"
+                        style={
+                          Object {
+                            "marginBottom": "0.3rem",
+                          }
+                        }
+                      >
+                        <a
+                          href="http://localhost:8080/gxa/experiments?species=saccharomyces%20cerevisiae&experimentType=differential"
+                        >
+                          Differential: 1
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </Card>
               </div>
-            </InnerSlider>
-          </Slider>
+            </StyledComponent>
+          </styled.div>
         </div>
       </CarouselCardsRow>
     </div>
