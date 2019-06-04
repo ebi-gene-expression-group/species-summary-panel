@@ -31,7 +31,7 @@
     <script>
       document.addEventListener('DOMContentLoaded', function(event) {
         const columns = 100;
-        const slideSettings = {
+        const sliderSettings = {
           dots: true,
           infinite: true,
           speed: 500,
@@ -80,7 +80,7 @@
             carouselCardsRowProps: {
               className: 'row expanded small-up-2 medium-up-3 large-up-6',
               cardContainerClassName: 'column',
-              slideSettings: slideSettings
+              sliderSettings: sliderSettings
             }
           },
           'ea-species');
@@ -96,7 +96,9 @@
             carouselCardsRowProps: {
               className: 'row expanded small-up-2 medium-up-3 large-up-6',
               cardContainerClassName: 'column',
-              slideSettings: slideSettings
+              sliderSettings: sliderSettings,
+              containerHeight: `320px`,
+              sliderHeight: `300px`
             }
           },
           'scea-species');
