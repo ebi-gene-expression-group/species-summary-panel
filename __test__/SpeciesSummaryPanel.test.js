@@ -8,12 +8,27 @@ describe(`SpeciesSummaryPanel`, () => {
     expect(shallow(
       <SpeciesSummaryPanel
         speciesSummary={[]}
+        carouselCardsRowProps={{
+          className: `row expanded small-up-2 medium-up-3 large-up-6`,
+          cardContainerClassName: `column`,
+          sliderSettings: {slidesToShow: 2},
+          containerHeight: `320px`,
+          sliderHeight: `300px`
+        }
+        }
         onComponentDidMount={done}/>
     ))
   })
 
   test(`renders correctly`, () => {
-    expect(mount(<SpeciesSummaryPanel {...speciesSummary}/>)).toMatchSnapshot()
-    expect(mount(<SpeciesSummaryPanel speciesSummary={[]}/>)).toMatchSnapshot()
+    const carouselCardsRowProps={
+      className: `row expanded small-up-2 medium-up-3 large-up-6`,
+      cardContainerClassName: `column`,
+      sliderSettings: {slidesToShow: 2},
+      containerHeight: `320px`,
+      sliderHeight: `300px`
+    }
+    expect(mount(<SpeciesSummaryPanel {...speciesSummary} carouselCardsRowProps={carouselCardsRowProps}/>)).toMatchSnapshot()
+    expect(mount(<SpeciesSummaryPanel speciesSummary={[]} carouselCardsRowProps={carouselCardsRowProps}/>)).toMatchSnapshot()
   })
 })
