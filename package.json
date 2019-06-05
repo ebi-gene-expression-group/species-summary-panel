@@ -22,7 +22,8 @@
       "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
     },
     "setupFiles": [
-      "<rootDir>/__mocks__/requestAnimationFrame.js"
+      "<rootDir>/__mocks__/requestAnimationFrame.js",
+      "<rootDir>/__mocks__/matchMedia.js"
     ],
     "coveragePathIgnorePatterns": [
       "<rootDir>/__test__/TestUtils.js"
@@ -38,7 +39,7 @@
     "url": "https://github.com/ebi-gene-expression-group/species-summary-panel"
   },
   "dependencies": {
-    "atlas-homepage-cards": "^2.0.2",
+    "atlas-homepage-cards": "^2.1.3",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
