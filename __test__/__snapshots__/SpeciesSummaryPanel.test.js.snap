@@ -591,9 +591,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -607,7 +607,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -624,7 +625,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -784,9 +785,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -800,7 +801,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -817,7 +819,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -978,9 +980,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -994,7 +996,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1011,7 +1014,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -1190,9 +1193,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -1206,7 +1209,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1223,7 +1227,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -1384,9 +1388,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -1400,7 +1404,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1417,7 +1422,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -1578,9 +1583,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -1594,7 +1599,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1611,7 +1617,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -1772,9 +1778,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -1788,7 +1794,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1805,7 +1812,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -1966,9 +1973,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -1982,7 +1989,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -1999,7 +2007,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -2159,9 +2167,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -2175,7 +2183,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -2192,7 +2201,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -2370,9 +2379,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -2386,7 +2395,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -2403,7 +2413,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -2563,9 +2573,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -2579,7 +2589,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -2596,7 +2607,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -2756,9 +2767,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -2772,7 +2783,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -2789,7 +2801,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -2949,9 +2961,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -2965,7 +2977,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -2982,7 +2995,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -3142,9 +3155,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-bwzfXH",
+                                    "componentId": "sc-bxivhb",
                                     "isStatic": true,
-                                    "lastClassName": "hgHOem",
+                                    "lastClassName": "gxCHar",
                                     "rules": Array [
                                       "
     :hover {
@@ -3158,7 +3171,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-bwzfXH",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-bxivhb",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -3175,7 +3189,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-bwzfXH hgHOem"
+                                className="column sc-bxivhb gxCHar"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -3606,9 +3620,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-htpNat",
+                                    "componentId": "sc-ifAKCX",
                                     "isStatic": true,
-                                    "lastClassName": "bhHEHk",
+                                    "lastClassName": "gnXemY",
                                     "rules": Array [
                                       "
     :hover {
@@ -3622,7 +3636,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-htpNat",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-ifAKCX",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -3639,7 +3654,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-htpNat bhHEHk"
+                                className="column sc-ifAKCX gnXemY"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -3799,9 +3814,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-htpNat",
+                                    "componentId": "sc-ifAKCX",
                                     "isStatic": true,
-                                    "lastClassName": "bhHEHk",
+                                    "lastClassName": "gnXemY",
                                     "rules": Array [
                                       "
     :hover {
@@ -3815,7 +3830,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-htpNat",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-ifAKCX",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -3832,7 +3848,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-htpNat bhHEHk"
+                                className="column sc-ifAKCX gnXemY"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -3993,9 +4009,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-htpNat",
+                                    "componentId": "sc-ifAKCX",
                                     "isStatic": true,
-                                    "lastClassName": "bhHEHk",
+                                    "lastClassName": "gnXemY",
                                     "rules": Array [
                                       "
     :hover {
@@ -4009,7 +4025,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-htpNat",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-ifAKCX",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -4026,7 +4043,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-htpNat bhHEHk"
+                                className="column sc-ifAKCX gnXemY"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -4187,9 +4204,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-htpNat",
+                                    "componentId": "sc-ifAKCX",
                                     "isStatic": true,
-                                    "lastClassName": "bhHEHk",
+                                    "lastClassName": "gnXemY",
                                     "rules": Array [
                                       "
     :hover {
@@ -4203,7 +4220,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-htpNat",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-ifAKCX",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -4220,7 +4238,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-htpNat bhHEHk"
+                                className="column sc-ifAKCX gnXemY"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -4381,9 +4399,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-htpNat",
+                                    "componentId": "sc-ifAKCX",
                                     "isStatic": true,
-                                    "lastClassName": "bhHEHk",
+                                    "lastClassName": "gnXemY",
                                     "rules": Array [
                                       "
     :hover {
@@ -4397,7 +4415,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-htpNat",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-ifAKCX",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -4414,7 +4433,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-htpNat bhHEHk"
+                                className="column sc-ifAKCX gnXemY"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -4574,9 +4593,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-htpNat",
+                                    "componentId": "sc-ifAKCX",
                                     "isStatic": true,
-                                    "lastClassName": "bhHEHk",
+                                    "lastClassName": "gnXemY",
                                     "rules": Array [
                                       "
     :hover {
@@ -4590,7 +4609,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-htpNat",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-ifAKCX",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -4607,7 +4627,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-htpNat bhHEHk"
+                                className="column sc-ifAKCX gnXemY"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -4767,9 +4787,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-htpNat",
+                                    "componentId": "sc-ifAKCX",
                                     "isStatic": true,
-                                    "lastClassName": "bhHEHk",
+                                    "lastClassName": "gnXemY",
                                     "rules": Array [
                                       "
     :hover {
@@ -4783,7 +4803,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-htpNat",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-ifAKCX",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -4800,7 +4821,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-htpNat bhHEHk"
+                                className="column sc-ifAKCX gnXemY"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -4960,9 +4981,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "$$typeof": Symbol(react.forward_ref),
                                   "attrs": Array [],
                                   "componentStyle": ComponentStyle {
-                                    "componentId": "sc-htpNat",
+                                    "componentId": "sc-ifAKCX",
                                     "isStatic": true,
-                                    "lastClassName": "bhHEHk",
+                                    "lastClassName": "gnXemY",
                                     "rules": Array [
                                       "
     :hover {
@@ -4976,7 +4997,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                                   "displayName": "styled.div",
                                   "foldedComponentIds": Array [],
                                   "render": [Function],
-                                  "styledComponentId": "sc-htpNat",
+                                  "self": [Circular],
+                                  "styledComponentId": "sc-ifAKCX",
                                   "target": "div",
                                   "toString": [Function],
                                   "warnTooManyClasses": [Function],
@@ -4993,7 +5015,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                               tabIndex={-1}
                             >
                               <div
-                                className="column sc-htpNat bhHEHk"
+                                className="column sc-ifAKCX gnXemY"
                                 style={
                                   Object {
                                     "display": "inline-block",
@@ -5214,9 +5236,9 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-bxivhb",
+                    "componentId": "sc-EHOje",
                     "isStatic": true,
-                    "lastClassName": "gxCHar",
+                    "lastClassName": "fHEUvF",
                     "rules": Array [
                       "
     :hover {
@@ -5230,7 +5252,8 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-bxivhb",
+                  "self": [Circular],
+                  "styledComponentId": "sc-EHOje",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -5240,7 +5263,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
               forwardedRef={null}
             >
               <div
-                className="column sc-bxivhb gxCHar"
+                className="column sc-EHOje fHEUvF"
               >
                 <Card
                   content={
