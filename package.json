@@ -1,5 +1,5 @@
 {
-  "name": "species-summary-panel",
+  "name": "@ebi-gene-expression-group/species-summary-panel",
   "version": "1.0.0-snapshot",
   "description": "Species summary panel to display in Expression Atlas and Single Cell Expression Atlas",
   "main": "lib/index.js",
