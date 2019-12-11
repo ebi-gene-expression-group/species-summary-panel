@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import { CarouselCardsRow } from 'atlas-homepage-cards'
+import { CarouselCardsRow } from '@ebi-gene-expression-group/atlas-homepage-cards'
 
 const tabsId = `species-summary-tabs`
 
