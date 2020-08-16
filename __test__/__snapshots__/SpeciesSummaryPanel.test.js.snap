@@ -9,7 +9,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
       "containerHeight": "320px",
       "sliderHeight": "300px",
       "sliderSettings": Object {
-        "slidesToShow": 1,
+        "slidesToShow": 2,
       },
     }
   }
@@ -391,7 +391,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
         sliderHeight="300px"
         sliderSettings={
           Object {
-            "slidesToShow": 1,
+            "slidesToShow": 2,
           }
         }
         speciesIconHeight="6rem"
@@ -528,6 +528,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                     slidesToScroll={1}
                     slidesToShow={2}
                     speed={500}
+                    targetSlide={0}
                     trackStyle={
                       Object {
                         "WebkitTransform": "translate3d(0px, 0px, 0px)",
@@ -538,6 +539,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                         "transition": "",
                       }
                     }
+                    useCSS={true}
                     variableWidth={false}
                     vertical={false}
                   >
@@ -2860,7 +2862,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
         sliderHeight="300px"
         sliderSettings={
           Object {
-            "slidesToShow": 1,
+            "slidesToShow": 2,
           }
         }
         speciesIconHeight="6rem"
@@ -2997,6 +2999,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                     slidesToScroll={1}
                     slidesToShow={2}
                     speed={500}
+                    targetSlide={0}
                     trackStyle={
                       Object {
                         "WebkitTransform": "translate3d(0px, 0px, 0px)",
@@ -3007,6 +3010,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                         "transition": "",
                       }
                     }
+                    useCSS={true}
                     variableWidth={false}
                     vertical={false}
                   >
@@ -4332,7 +4336,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
         sliderHeight="300px"
         sliderSettings={
           Object {
-            "slidesToShow": 1,
+            "slidesToShow": 2,
           }
         }
         speciesIconHeight="6rem"
@@ -4483,7 +4487,7 @@ exports[`SpeciesSummaryPanel renders correctly 2`] = `
       "containerHeight": "320px",
       "sliderHeight": "300px",
       "sliderSettings": Object {
-        "slidesToShow": 1,
+        "slidesToShow": 2,
       },
     }
   }
