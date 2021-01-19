@@ -404,10 +404,10 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
             }
           }
         >
-          <Memo(GlobalStyleComponent)
+          <Memo(l)
             sliderHeight="300px"
           />
-          <Memo(GlobalStyleComponent) />
+          <Memo(l) />
           <Slider
             slidesToShow={2}
           >
@@ -588,7 +588,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -742,7 +742,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -897,7 +897,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -1070,7 +1070,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -1225,7 +1225,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -1380,7 +1380,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -1535,7 +1535,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -1690,7 +1690,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -1844,7 +1844,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -2016,7 +2016,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -2170,7 +2170,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -2324,7 +2324,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -2478,7 +2478,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -2632,7 +2632,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -2875,10 +2875,10 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
             }
           }
         >
-          <Memo(GlobalStyleComponent)
+          <Memo(l)
             sliderHeight="300px"
           />
-          <Memo(GlobalStyleComponent) />
+          <Memo(l) />
           <Slider
             slidesToShow={2}
           >
@@ -3059,7 +3059,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -3213,7 +3213,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -3368,7 +3368,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -3523,7 +3523,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -3678,7 +3678,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -3832,7 +3832,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -3986,7 +3986,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -4140,7 +4140,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
                             tabIndex={-1}
                           >
                             <div
-                              className="sc-AxhUy QItNJ column"
+                              className="sc-eCssSg laOFDY column"
                               style={
                                 Object {
                                   "display": "inline-block",
@@ -4355,7 +4355,7 @@ exports[`SpeciesSummaryPanel renders correctly 1`] = `
             key="0"
           >
             <div
-              className="sc-AxhUy QItNJ column"
+              className="sc-eCssSg laOFDY column"
             >
               <Card
                 content={
