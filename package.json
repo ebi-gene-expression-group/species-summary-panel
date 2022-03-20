@@ -50,7 +50,7 @@
     "@babel/polyfill": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
-    "@ebi-gene-expression-group/atlas-react-fetch-loader": "^3.7.0",
+    "@ebi-gene-expression-group/atlas-react-fetch-loader": "^3.8.0",
     "@ebi-gene-expression-group/eslint-config-gene-expression": "^0.6.0",
     "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
