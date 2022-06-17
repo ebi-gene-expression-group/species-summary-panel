@@ -6,15 +6,15 @@ import { CarouselCardsRow } from '@ebi-gene-expression-group/atlas-homepage-card
 const tabsId = `species-summary-tabs`
 
 class SpeciesSummaryPanel extends React.Component {
-  render() {
+  render () {
     const { speciesSummary, carouselCardsRowProps } = this.props
 
-    return(
+    return (
       [
         <ul key={`tabs`} className={`tabs`} data-tabs id={tabsId}>
           {
-            speciesSummary.map(({kingdom}, idx) =>
-              <li key={idx} className={`tabs-title${idx === 0 ? ` is-active` : ``}`} style={{textTransform: `capitalize`}}>
+            speciesSummary.map(({ kingdom }, idx) =>
+              <li key={idx} className={`tabs-title${idx === 0 ? ` is-active` : ``}`} style={{ textTransform: `capitalize` }}>
                 <a href={`#${kingdom}`}>{kingdom}</a>
               </li>
             )
@@ -22,7 +22,7 @@ class SpeciesSummaryPanel extends React.Component {
         </ul>,
         <div key={`tabs-content`} className={`tabs-content`} data-tabs-content={tabsId}>
           {
-            speciesSummary.map(({kingdom, cards}, idx) =>
+            speciesSummary.map(({ kingdom, cards }, idx) =>
               <div key={idx} className={`tabs-panel${idx === 0 ? ` is-active` : ``}`} id={kingdom}>
                 <CarouselCardsRow
                   cards={cards}
@@ -38,7 +38,7 @@ class SpeciesSummaryPanel extends React.Component {
 
   // Since the tabs need $().foundation() to function properly, we provide an optional callback to be run on the
   // target DOM node once the component has been initially rendered
-  componentDidMount() {
+  componentDidMount () {
     this.props.onComponentDidMount()
   }
 }

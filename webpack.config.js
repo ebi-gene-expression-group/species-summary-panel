@@ -1,23 +1,17 @@
 const path = require(`path`)
-const { CleanWebpackPlugin } = require(`clean-webpack-plugin`)
 
 const commonPublicPath = `/dist/`
 const vendorsBundleName = `vendors`
 
 module.exports = {
   entry: {
-    speciesSummaryPanelDemo: [`@babel/polyfill`, `./html/SpeciesSummaryPanelDemo.js`],
+    speciesSummaryPanelDemo: `./html/SpeciesSummaryPanelDemo.js`,
   },
-
-  plugins: [
-    new CleanWebpackPlugin()
-  ],
 
   output: {
     library: `[name]`,
     filename: `[name].bundle.js`,
-    publicPath: commonPublicPath,
-    devtoolNamespace: `firefox`
+    clean: true
   },
 
   resolve: {
@@ -55,8 +49,10 @@ module.exports = {
 
   devServer: {
     port: 9000,
-    contentBase: path.resolve(__dirname, `html`),
-    publicPath: commonPublicPath
+    static: `./html`,
+    devMiddleware: {
+      publicPath: `/dist`
+    }
     // Add if developing a SPA to redirect non-matching routes known by WDS (i.e. no document in /html) to the router
     // historyApiFallback: true
   }
