@@ -21,7 +21,7 @@
     "url": "https://github.com/ebi-gene-expression-group/species-summary-panel"
   },
   "dependencies": {
-    "@ebi-gene-expression-group/atlas-homepage-cards": "^2.5.2",
+    "@ebi-gene-expression-group/atlas-homepage-cards": "^2.5.3",
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
